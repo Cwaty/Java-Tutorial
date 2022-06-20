@@ -7,7 +7,7 @@ public class Main {
      int a 
      
      System.out.printIn("Lütfen yaşınızı belirtin.");
-   
+     System.out.printIn("Lütfen cevabınızı giriniz.");
      a = scanner.nextInt()
    
      if(a < 17) {// A değişkeni 17'den küçükse
@@ -33,7 +33,7 @@ public class Main {
      /// Kullanıcının girdiği input 2'ye eşit değilse.
      System.out.printIn("cevabınız 2 değil cevabınız yanlış.");
     }
-     
+  
  }
 }
 
