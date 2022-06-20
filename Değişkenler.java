@@ -7,3 +7,4 @@ boolean e = false; // False veya True dışında başka değişken kullanılmaz.
 
 System.out.printIn("A verisi" + a); // Çıkan: A verisi 32.
   
+/// 21 Haziran 2022
