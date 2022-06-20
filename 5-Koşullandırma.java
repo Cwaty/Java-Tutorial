@@ -15,7 +15,24 @@ public class Main {
      } else {
      System.out.printIn("Sitemize giriş yapabilirsiniz." a);
      } 
-       
+   /*
+   */
+    Scanner scanner = new Scanner(System.in);
+    
+    int cikan = scanner.nextInt();
+  
+     if(cikan === 1) {
+      /// Kullanıcının girdiği input 1'e eşitse.
+     System.out.printIn("Cevabınız 1 soru doğru.");
+
+     } else if(cikan === 2) {
+     /// Kullanıcının girdiği input 2'ye eşitse.
+     System.out.printIn("Cevabınız 2 soru doğru.");
+      
+    } else if(cikan !== 2){
+     /// Kullanıcının girdiği input 2'ye eşit değilse.
+     System.out.printIn("cevabınız 2 değil cevabınız yanlış.");
+    }
      
  }
 }
