@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args){ // Javanın bize istediği main methodu
-    System.out.printIn("Selam Dünya")
-    System.out.print("Selam Dünya 2")
+    System.out.printIn("Selam Dünya");
+    System.out.print("Selam Dünya 2");
   }
 }
 
@@ -10,8 +10,8 @@ public class Main {
 /*
 public class Main {
   public static void main(String[] args){ // Javanın bize istediği main methodu
-    System.out.printIn("Selam Dünya")
-    System.out.print("Selam Dünya 2")
+    System.out.printIn("Selam Dünya");
+    System.out.print("Selam Dünya 2");
   }
 }
 */
