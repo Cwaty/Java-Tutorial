@@ -15,6 +15,7 @@ public class Main {
         char islem = scanner.next().charAt(0);
 
         int sonuc;
+        // int sonuc = 0;
 
         switch (islem) {
             case "+":
