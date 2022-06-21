@@ -4,3 +4,4 @@ public class EmployeeManager {
         emp.thisInfo(); // fonksiyon açmıştık.
     }
 }
+/// 22 Haziran 2022
