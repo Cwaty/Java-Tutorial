@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Employee {
     public static void main(String[] args) {
         System.out.println("Selam.");
 
@@ -14,29 +14,26 @@ public class Main {
         System.out.println("İşleminizi seçiniz (+ , - , * , /)");
         char islem = scanner.next().charAt(0);
 
-        int sonuc;
-        // int sonuc = 0;
+        int sonuc = 0;
 
         switch (islem) {
-            case "+":
+            case '+':
                 sonuc = sayi1 + sayi2;
                 break;
-            case "-":
+            case '-':
                 sonuc = sayi1 - sayi2;
                 break;
-            case "*":
+            case '*':
                 sonuc = sayi1 * sayi2;
                 break;
-            case "/":
+            case '/':
                 sonuc = sayi1 / sayi2;
                 break;
             default:
-            System.out.println("Geçersiz işlem.");
+                System.out.println("Geçersiz işlem.");
                 break;
         }
-        syste.out.println("İşleminizin sonucu: " + sonuc);
+        System.out.println("İşleminizin sonucu: " + sonuc);
     }
 
 }
-
-/// 21 Haziran 2022
