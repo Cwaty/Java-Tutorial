@@ -20,7 +20,7 @@ public int GET_ID(){
 public String GET_NAME(){
         return name;
 }
-
+// ID'yi kontrol ediyoruz
 public void SET_ID(int id){
         if(id > 100) {
             this.id = 100;
@@ -30,3 +30,5 @@ public void SET_ID(int id){
 }
 
 }
+
+/// 22 Haziran 2022
